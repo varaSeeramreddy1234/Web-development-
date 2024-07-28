@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fresh{
+            border: 5px solid transparent;
+            width: 100%;
+            height:600px;
+            background-image: url(bread.jpeg);
+            background-repeat: no-repeat;
+            background-position: 5px;
+            background-size: cover;
+        }
+        .container{
+            
+            border: 3px transparent;
+                        height:890px;
+                        width: auto;
+            text-align: center;
+            
+            
+            background-color:grey;
+            
+
+        }
+        .head{
+            border: 3px solid transparent;
+            margin: auto;
+            margin-top: 20px;
+            font-size: 50px; 
+        text-align: center;   
+        }
+            
+        
+        .parent{
+            border: 2px solid transparent;
+            width:100%;
+            height:800px;
+            display:grid;
+            grid-template-columns: repeat(4,200px);
+            grid-template-rows: repeat(1px,150px);
+            margin: auto;
+            margin-left: 250px;
+            margin-top: 3px;
+            gap:10px;
+            
+                  }
+            .parent>div{
+                
+                border: 2px solid transparent;
+                gap: 2px;
+                
+                
+                justify-content: space-between;
+                border-radius: 30px;
+                
+                background-color: white;
+                margin-top: 10px;
+
+            }
+             
+            .top{
+               border: 2px solid transparent; 
+               background-color:white;
+               height: 40%;
+               width:90%;
+               
+               margin-top: 10px;
+               border-radius:50px;
+
+            }
+        .bottom{
+            border:2px solid transparent;
+                width:90%;
+                height:50%;
+                font-style:normal;
+                background-color: white;
+                border-radius:20px;
+        }
+        .head1{
+            border:5px solid transparent;
+            margin: auto;
+            margin-left:550px;
+            height:200px;
+            width: 400px;
+            text-align: center;
+            margin-top:200px;
+            
+            
+
+        }
+        .org{
+        font-size: 50px;    
+        }
+        .from{
+            font-size: 10px;
+            font-style:var(10px);
+        }
+        .fam{
+            margin-left: 0%;
+        }
+    
+          .parent1{
+             border:2px solid transparent;
+            width:600px;
+            display: grid;
+            margin: auto;
+            grid-template-columns: repeat(3,150px);
+            grid-template-rows: repeat(1,150px);
+            margin-left: 650px;
+        }
+        .parent1>div{
+            border: 2px solid transparent;
+        }
+           
+        
+       
+       
+       .head2{
+            border: 5px solid transparent;
+            width:500px;
+            height: 50px;
+            margin-left: 300px;
+            text-align: center;
+            margin-top: 10px; 
+            font-size: larger; 
+       
+       }
+       .parent2{
+        display:grid;
+        border: 5px solid transparent;
+        margin: auto;
+        margin-top: 15px;
+        width: 1000px;
+        height: 400px;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,200px);
+        gap:4px;
+        
+        
+       }
+       .parent2>div{   
+        border: 5px solid transparent;
+        
+       }
+       .page3{
+        border: 5px solid transparent;
+        background-image: url(breadsingle.jpg);
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .head3{
+        border: 5px solid transparent;
+        width: 600px;
+        height: 300px;
+        margin: auto;
+        color: white;
+        margin-top: 100px;
+        margin-left: 700px;
+       }
+       button{
+
+        border-radius: 20px;
+        height: 40px;
+        width: 150px;
+        background-color:black;
+        border: 2px solid white;
+        color: white;
+       }
+       .page6{
+        background-image: url(sweet.jpg);
+        background-repeat: no-repeat;
+        background-position: 5px;
+        background-size: cover;
+        border: 5px solid transparent;
+        color: white;
+        width: 100%;
+        height: 550px;
+       }
+       .head4{
+        border: 5px solid transparent;
+        width: 700px;
+        height: 60px;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 30px;
+        
+       }
+       .parent4{
+        display: grid;
+        border: 3px solid transparent;
+        width: 700px;
+        height: 200px;
+        margin: auto;
+        grid-template-columns: repeat(3,300px);
+        grid-template-rows: repeat(0,150px);
+        grid-gap: 15px;
+        margin-top: 30px;
+        margin-left: 200px;
+       }
+       .parent4>div{
+        border: 5px solid transparent;
+        border-radius: 20px;
+       }
+       .item1{
+        background-color: white;
+        color: black;
+       }
+       .item2{
+        background-color: white;
+        color: black;
+       }
+       .item3{
+        background-color: white;
+        color: black;
+       }
+       .page7{
+        border: 3px solid transparent;
+       
+        background-color:whitesmoke;
+
+        width: 100%;
+        height: 600px;
+       }
+       .head5{
+        font-size: 35px;
+        color: black;
+       }
+       .parent5{
+        margin: auto;
+        border: 5px solid transparent;
+        width: 500px;
+        height: 200px;
+    
+
+           }
+           .page5{
+            display: flex;
+
+            border: 3px solid transparent;
+            width: 1400px;;
+            height: 500px;
+            background-color: gray;
+            gap: 8px;
+            margin-top: 8px;
+            
+           }
+           .box1{
+            border: 3px solid transparent;
+            width: 1400px;
+            height: 500px;
+            margin: auto;
+            margin-top: 30px;
+            margin-left: 350px;
+            
+    
+           
+           }
+           .box2{
+            border: 3px solid transparent;
+            width: 1400px;
+            height: 400px;
+            margin-right: 500px;
+            margin-top: 30px;
+            background-image:url(quality-bread.jpeg);
+            background-position: 5px;
+            background-size: cover;
+            background-repeat:no-repeat;
+
+           }
+           .new1{
+            border: 3px solid transparent;
+            height: 200px;
+            width: auto;
+           }
+           .new2{
+            border: 3px solid transparent;
+            height: 330px;
+            width: auto;
+            background-image: url(man.jpg);
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-position: 3px;
+
+           }
+           
+            .page8{
+                border: 3px solid transparent;
+                width: auto;
+                height: 400px;
+            }
+            .theory{
+                border: 3px transparent;
+                width:50%;
+                height: 300px;
+                margin: auto;
+                margin-top: 80px;
+            }
+            .button1{
+                background-color: white;
+                color: black;
+            }
+           
+
+            
+           
+       
+    </style>
+</head>
+<body>
+    <div class="fresh">
+        <div class="head1">
+            <div class="fam">FAMLY BAKERY</div>
+            <div class="org"><b>ORGANIC</b> <br><b>BREADS</b></div>
+            <div class="from">IMAGE FROM FREEPIK</div></div>
+        <div class="parent1">
+            <div><h3>FIND US</h3><p>121 rock street,21 <br>Avenue,Newy york,Ny<br> 92103-9000</p>
+
+            </div>
+            <div><h3>HOURS</h3>
+                <p><b>Monday-saturday</b><br>9am-7am <br>
+                <b>sunday</b><br>10am-6pm</p>
+
+            </div>
+            <div><h3>CALL US</h3><br>1(123)567-891<br>2(345)333-897</div>
+        
+        </div>
+    </div>
+    <div class="page2">
+        <div class="head2"><b>Delicious Baking</b></div>
+        <div class="parent2">
+        <div ><img src="logo1.png" width="100px"></div>
+        <div class="content1"><b>Baked Fresh Daily</b><br><br>our food is baked fresh daly,<br>contains no preservatives and is<br>very high in quality.it s also<br>especially nice and soft.</div>
+        <div ><img src="logo2.png"  width="70px" height="70px"></div>
+        <div class="content2"><b>Great value</b><br><br>with the most competative prices<br> on the market we are able to<br> deliver great value without <br>compremising on taste</div>
+        <div ><img src="logo3.png"  width="100px"></div>
+        <div class="content3"><b>Instit utions</b><br><br> we serve a wide range of <br>institutions includng universities,<br>airlines,hotels and schools.order<br>daily for tomorrow</div>
+        <div><img src="logo4.png"  width="100px"></div>
+        <div class="content4"><h3>Delivery To your Door</h3>sample text.click to select the text <br>box. click again or double click to start editing the text.</div>
+        <div><img src="logo5.png"  width="100px"></div>
+        <div class="content5"><h3>No Order Too Large</h3>sample text.click to select the text <br>box. click again or double click to start editing the text.</div>
+        <div><img src="logo6.png"  width="60px"></div>
+        <div class="content6"><h3>Delicious Baking</h3><br>sample text.click to select the text<br> box.click again or double click to start editing the text.</div>
+        
+
+    </div>
+    </div>
+    <div class="page3" >
+        <div class="head3" ><h1 style="font-size: 50px;">Fresh breads<br>cakes and pasties</h1><p>Nibh venenatis cras sed felis eget velit aliquet sagittis id.Tellus<br> pellentesque eu tincidunt tortor aliquam nulla.<br><br>image from <u>freepik</u></p>
+        <button>READ MORE</button></div>
+
+    </div>
+
+
+
+<div class="container">
+    <div class="head"><b>Our Breads</b></div>
+    <div class="parent">
+        <div>
+            <div class="top"> <img src="bread1.jpg" width="80%" height=90% style="border-radius: 4%;"></div>
+            <div class="bottom"><b>WHITE BREAD</b><br><br>sample text.click to select the text box.click again or double click to start editng the text.<br><br><u>more</u></div>
+        </div>
+<div>
+    <div class="top"><img src="bread2.jpg"width="90%" height=80% style="border-radius: 4%;"></div>
+    <div class="bottom"><b>FARMING BREAD</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+</div>
+<div>
+    <div class="top"><img src="bread3.jpg" width="90%" height=80% style="border-radius: 4%;"></div>
+    <div class="bottom"><b>LOAF BREAD</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+</div>
+<div>
+    <div class="top"><img src="bread4.jpg" width="90%" height=80% style="border-radius: 4%;"></div>
+    <div class="bottom"><b>SOURDPUGH</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+</div>
+<div>
+    <div class="top"><img src="bread5.jpg" width="90%" height=80% style="border-radius: 4%;" ></div>
+    <div class="bottom"><b>OLIVE BREAD</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+</div>
+<div>
+    <div class="top"><img src="bread6.jpg" width="90%" height=80% style="border-radius: 4%;"></div>
+    <div class="bottom"><b>WHOLE-GRAIN BREAD</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+</div>
+<div>
+    <div class="top"><img src="bread7.jpg" width="90%" height=80% style="border-radius: 4%;"></div>
+    <div class="bottom"><b>FARMNG BREAD</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+</div>
+<div> <div class="top"><img src="bread8.jpg" width="90%" height=80% style="border-radius: 4%;"></div>
+<div class="bottom"><b>BAGUETTTE</b><br><br>sample text click to select the text box.click again or double click to start editing the text.<br><br><u>more</u></div>
+    </div>
+</div>
+<div class="page5">
+   
+    <div class="box1">
+        <div class="new1"><h1 style="text-align: left; margin-left: 5%;">Delicious<br>Baking.<br>Exceptional<br>Quality.</h1 ></div> 
+        <div class="new2"></div>
+    </div>
+    <div class="box2"></div>
+    
+
+</div>
+<div class="page8">
+    <div class="theory">
+        <h2 style="font-size: 28px;"> We produce delicious bread,rolls and other products</h2>
+        <p style="text-align: justify; margin-left: 15px;font-style: normalS;">Lorem ipsum dolor sit amet ing elit.  exercitationem porro ipsa, delectus repudiandae consequuntur <br>labore ab odio! Maxime, quo obcaecati sint veniam autem <b><u>extrodinary</u></b> nostrum enim.ull Lorem ipsum dolor sit amet consectetur elit. Fugit possimus sunt optio ducimus minus in accusamus aut hic nulla temporibus voluptas molestiae voluptate officia, tempora molestias! Laboriosam provident reprehenderit fuga!</p><p style="text-align: left; margin-left: 10px;"><br>image from <u>freepiik</u></p><br>
+        
+        <button style="color: black; background-color: white;border:2px solid black ; margin-right: 500px;"><b>LEARN MORE</b></button>
+</div>
+</div>
+<div class="page6">
+    <div class="head4"><b>Sweets Menu<b></div>
+        <div class="parent4">
+            <div class="item1"> <h2 style="color: black;">cookies</h2><p style="text-align: left; padding: 5px;">-Biscotti<br>-chocolate chip<br>-Oatmeal pecan<br>-Oat ginger bar<br>-Seasonal specials </p></div>
+            <div class="item2"><h2 style="color: black;">scones</h2><p style="text-align: left;padding: 5px;">-classic butter scone<br>-fresh fruit buttermilk scones<br>-Handmade scones</p></div>
+            <div class="item3"><h2 style="color: black;">other</h2><p style="text-align: left;padding: 7px;">-seasonal galletes<br>-tartlets<br>-Banana Bread <br>-cranberry pecan granola</div>
+        
+    </div>
+</div>
+    <div class="page7">
+        <div class="head5"><p>our freshly baked bread is the hero <br>of our breakfast menu</p><p style="font-size: 15px;">image from <u>freepik</u></p><button style="color: black; background-color: white;border:2px solid black;">READ MORE</button></div>
+      <div class="parent5" style="background-position: 5px;">
+      <img src="single-img.jpg" width="500px">
+      </div>
+    </div>
+    
+       
+</body>
+</html>
